@@ -37,9 +37,10 @@ Delhi Metro Navigator is a lightweight web application that helps users find the
 
 ## Setup Instructions
 
-To run the project locally:
 To run the project locally on your system:
 
 1. **Clone the repository using Git**:
    ```bash
    git clone https://github.com/dhruvrahuja/Delhi-Metro-Navigator.git
+
+2. Run index.html on your system
