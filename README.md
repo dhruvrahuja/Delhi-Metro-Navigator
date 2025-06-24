@@ -4,8 +4,7 @@ Delhi Metro Navigator is a lightweight web application that helps users find the
 
 ## Live Demo
 
-[Visit the Live Site](https://your-demo-link.com)  
-*(Replace this with your deployed link if available)*
+[Visit the Live Site](https://delhi-metro-navigator-delta.vercel.app/)  
 
 ---
 
