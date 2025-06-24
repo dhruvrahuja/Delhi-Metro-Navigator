@@ -21,3 +21,8 @@ Delhi Metro Navigator is a lightweight web application that helps users find the
 
 ## Project Structure
 
+dmrc-navigator/
+├── index.html # Main HTML file
+├── style.css # Stylesheet
+├── script.js # JavaScript logic
+├── stations.json # Metro station data (station name, line, and connections)
