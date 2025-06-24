@@ -1,0 +1,1954 @@
+{
+  "stations": {
+    "Rithala_Red": {
+      "name": "Rithala",
+      "line": "Red",
+      "connections": [
+        "Rohini West_Red"
+      ]
+    },
+    "Rohini West_Red": {
+      "name": "Rohini West",
+      "line": "Red",
+      "connections": [
+        "Rithala_Red",
+        "Rohini East_Red"
+      ]
+    },
+    "Rohini East_Red": {
+      "name": "Rohini East",
+      "line": "Red",
+      "connections": [
+        "Rohini West_Red",
+        "Pitampura_Red"
+      ]
+    },
+    "Pitampura_Red": {
+      "name": "Pitampura",
+      "line": "Red",
+      "connections": [
+        "Rohini East_Red",
+        "Kohat Enclave_Red"
+      ]
+    },
+    "Kohat Enclave_Red": {
+      "name": "Kohat Enclave",
+      "line": "Red",
+      "connections": [
+        "Pitampura_Red",
+        "Netaji Subhash Place_Red"
+      ]
+    },
+    "Netaji Subhash Place_Red": {
+      "name": "Netaji Subhash Place",
+      "line": "Red",
+      "connections": [
+        "Kohat Enclave_Red",
+        "Keshav Puram_Red",
+        "Netaji Subhash Place_Pink"
+      ]
+    },
+    "Keshav Puram_Red": {
+      "name": "Keshav Puram",
+      "line": "Red",
+      "connections": [
+        "Netaji Subhash Place_Red",
+        "Kanhaiya Nagar_Red"
+      ]
+    },
+    "Kanhaiya Nagar_Red": {
+      "name": "Kanhaiya Nagar",
+      "line": "Red",
+      "connections": [
+        "Keshav Puram_Red",
+        "Inderlok_Red"
+      ]
+    },
+    "Inderlok_Red": {
+      "name": "Inderlok",
+      "line": "Red",
+      "connections": [
+        "Kanhaiya Nagar_Red",
+        "Shastri Nagar_Red",
+        "Inderlok_Green"
+      ]
+    },
+    "Shastri Nagar_Red": {
+      "name": "Shastri Nagar",
+      "line": "Red",
+      "connections": [
+        "Inderlok_Red",
+        "Pratap Nagar_Red"
+      ]
+    },
+    "Pratap Nagar_Red": {
+      "name": "Pratap Nagar",
+      "line": "Red",
+      "connections": [
+        "Shastri Nagar_Red",
+        "Pulbangash_Red"
+      ]
+    },
+    "Pulbangash_Red": {
+      "name": "Pulbangash",
+      "line": "Red",
+      "connections": [
+        "Pratap Nagar_Red",
+        "Tis Hazari_Red"
+      ]
+    },
+    "Tis Hazari_Red": {
+      "name": "Tis Hazari",
+      "line": "Red",
+      "connections": [
+        "Pulbangash_Red",
+        "Kashmere Gate_Red"
+      ]
+    },
+    "Kashmere Gate_Red": {
+      "name": "Kashmere Gate",
+      "line": "Red",
+      "connections": [
+        "Tis Hazari_Red",
+        "Shastri Park_Red",
+        "Kashmere Gate_Violet",
+        "Kashmere Gate_Yellow"
+      ]
+    },
+    "Shastri Park_Red": {
+      "name": "Shastri Park",
+      "line": "Red",
+      "connections": [
+        "Kashmere Gate_Red",
+        "Seelampur_Red"
+      ]
+    },
+    "Seelampur_Red": {
+      "name": "Seelampur",
+      "line": "Red",
+      "connections": [
+        "Shastri Park_Red",
+        "Welcome_Red"
+      ]
+    },
+    "Welcome_Red": {
+      "name": "Welcome",
+      "line": "Red",
+      "connections": [
+        "Seelampur_Red",
+        "Shahdara_Red",
+        "Welcome_Pink"
+      ]
+    },
+    "Shahdara_Red": {
+      "name": "Shahdara",
+      "line": "Red",
+      "connections": [
+        "Welcome_Red",
+        "Mansarovar Park_Red"
+      ]
+    },
+    "Mansarovar Park_Red": {
+      "name": "Mansarovar Park",
+      "line": "Red",
+      "connections": [
+        "Shahdara_Red",
+        "Jhilmil_Red"
+      ]
+    },
+    "Jhilmil_Red": {
+      "name": "Jhilmil",
+      "line": "Red",
+      "connections": [
+        "Mansarovar Park_Red",
+        "Dilshad Garden_Red"
+      ]
+    },
+    "Dilshad Garden_Red": {
+      "name": "Dilshad Garden",
+      "line": "Red",
+      "connections": [
+        "Jhilmil_Red",
+        "Shyam Park_Red"
+      ]
+    },
+    "Shyam Park_Red": {
+      "name": "Shyam Park",
+      "line": "Red",
+      "connections": [
+        "Dilshad Garden_Red",
+        "Mohan Nagar_Red",
+        "Shaheed Nagar_Red",
+        "Shaheed Sthal (New Bus Adda)_Red"
+      ]
+    },
+    "Mohan Nagar_Red": {
+      "name": "Mohan Nagar",
+      "line": "Red",
+      "connections": [
+        "Shyam Park_Red",
+        "Hindon River_Red"
+      ]
+    },
+    "Hindon River_Red": {
+      "name": "Hindon River",
+      "line": "Red",
+      "connections": [
+        "Mohan Nagar_Red",
+        "Major Mohit Sharma_Red"
+      ]
+    },
+    "Major Mohit Sharma_Red": {
+      "name": "Major Mohit Sharma",
+      "line": "Red",
+      "connections": [
+        "Hindon River_Red",
+        "Raj Bagh_Red"
+      ]
+    },
+    "Raj Bagh_Red": {
+      "name": "Raj Bagh",
+      "line": "Red",
+      "connections": [
+        "Major Mohit Sharma_Red",
+        "Shaheed Nagar_Red"
+      ]
+    },
+    "Shaheed Nagar_Red": {
+      "name": "Shaheed Nagar",
+      "line": "Red",
+      "connections": [
+        "Raj Bagh_Red",
+        "Shyam Park_Red"
+      ]
+    },
+    "Shaheed Sthal (New Bus Adda)_Red": {
+      "name": "Shaheed Sthal (New Bus Adda)",
+      "line": "Red",
+      "connections": [
+        "Shyam Park_Red"
+      ]
+    },
+    "Samaypur Badli_Yellow": {
+      "name": "Samaypur Badli",
+      "line": "Yellow",
+      "connections": [
+        "Rohini Sector 18/19_Yellow"
+      ]
+    },
+    "Rohini Sector 18/19_Yellow": {
+      "name": "Rohini Sector 18/19",
+      "line": "Yellow",
+      "connections": [
+        "Samaypur Badli_Yellow",
+        "Haiderpur Badli Mor_Yellow"
+      ]
+    },
+    "Haiderpur Badli Mor_Yellow": {
+      "name": "Haiderpur Badli Mor",
+      "line": "Yellow",
+      "connections": [
+        "Rohini Sector 18/19_Yellow",
+        "Jahangirpuri_Yellow"
+      ]
+    },
+    "Jahangirpuri_Yellow": {
+      "name": "Jahangirpuri",
+      "line": "Yellow",
+      "connections": [
+        "Haiderpur Badli Mor_Yellow",
+        "Adarsh Nagar_Yellow"
+      ]
+    },
+    "Adarsh Nagar_Yellow": {
+      "name": "Adarsh Nagar",
+      "line": "Yellow",
+      "connections": [
+        "Jahangirpuri_Yellow",
+        "Azadpur_Yellow"
+      ]
+    },
+    "Azadpur_Yellow": {
+      "name": "Azadpur",
+      "line": "Yellow",
+      "connections": [
+        "Adarsh Nagar_Yellow",
+        "Model Town_Yellow",
+        "Azadpur_Pink"
+      ]
+    },
+    "Model Town_Yellow": {
+      "name": "Model Town",
+      "line": "Yellow",
+      "connections": [
+        "Azadpur_Yellow",
+        "GTB Nagar_Yellow"
+      ]
+    },
+    "GTB Nagar_Yellow": {
+      "name": "GTB Nagar",
+      "line": "Yellow",
+      "connections": [
+        "Model Town_Yellow",
+        "Vishwavidyalaya_Yellow"
+      ]
+    },
+    "Vishwavidyalaya_Yellow": {
+      "name": "Vishwavidyalaya",
+      "line": "Yellow",
+      "connections": [
+        "GTB Nagar_Yellow",
+        "Civil Lines_Yellow"
+      ]
+    },
+    "Civil Lines_Yellow": {
+      "name": "Civil Lines",
+      "line": "Yellow",
+      "connections": [
+        "Vishwavidyalaya_Yellow",
+        "Kashmere Gate_Yellow"
+      ]
+    },
+    "Kashmere Gate_Yellow": {
+      "name": "Kashmere Gate",
+      "line": "Yellow",
+      "connections": [
+        "Civil Lines_Yellow",
+        "Chandni Chowk_Yellow",
+        "Kashmere Gate_Violet",
+        "Kashmere Gate_Red"
+      ]
+    },
+    "Chandni Chowk_Yellow": {
+      "name": "Chandni Chowk",
+      "line": "Yellow",
+      "connections": [
+        "Kashmere Gate_Yellow",
+        "Chawri Bazar_Yellow"
+      ]
+    },
+    "Chawri Bazar_Yellow": {
+      "name": "Chawri Bazar",
+      "line": "Yellow",
+      "connections": [
+        "Chandni Chowk_Yellow",
+        "New Delhi_Yellow"
+      ]
+    },
+    "New Delhi_Yellow": {
+      "name": "New Delhi",
+      "line": "Yellow",
+      "connections": [
+        "Chawri Bazar_Yellow",
+        "Rajiv Chowk_Yellow",
+        "New Delhi_Airport Express"
+      ]
+    },
+    "Rajiv Chowk_Yellow": {
+      "name": "Rajiv Chowk",
+      "line": "Yellow",
+      "connections": [
+        "New Delhi_Yellow",
+        "Patel Chowk_Yellow",
+        "Rajiv Chowk_Blue"
+      ]
+    },
+    "Patel Chowk_Yellow": {
+      "name": "Patel Chowk",
+      "line": "Yellow",
+      "connections": [
+        "Rajiv Chowk_Yellow",
+        "Central Secretariat_Yellow"
+      ]
+    },
+    "Central Secretariat_Yellow": {
+      "name": "Central Secretariat",
+      "line": "Yellow",
+      "connections": [
+        "Patel Chowk_Yellow",
+        "Udyog Bhawan_Yellow",
+        "Central Secretariat_Violet"
+      ]
+    },
+    "Udyog Bhawan_Yellow": {
+      "name": "Udyog Bhawan",
+      "line": "Yellow",
+      "connections": [
+        "Central Secretariat_Yellow",
+        "Lok Kalyan Marg_Yellow"
+      ]
+    },
+    "Lok Kalyan Marg_Yellow": {
+      "name": "Lok Kalyan Marg",
+      "line": "Yellow",
+      "connections": [
+        "Udyog Bhawan_Yellow",
+        "Jor Bagh_Yellow"
+      ]
+    },
+    "Jor Bagh_Yellow": {
+      "name": "Jor Bagh",
+      "line": "Yellow",
+      "connections": [
+        "Lok Kalyan Marg_Yellow",
+        "INA_Yellow"
+      ]
+    },
+    "INA_Yellow": {
+      "name": "INA",
+      "line": "Yellow",
+      "connections": [
+        "Jor Bagh_Yellow",
+        "AIIMS_Yellow",
+        "INA_Pink"
+      ]
+    },
+    "AIIMS_Yellow": {
+      "name": "AIIMS",
+      "line": "Yellow",
+      "connections": [
+        "INA_Yellow",
+        "Green Park_Yellow"
+      ]
+    },
+    "Green Park_Yellow": {
+      "name": "Green Park",
+      "line": "Yellow",
+      "connections": [
+        "AIIMS_Yellow",
+        "Hauz Khas_Yellow"
+      ]
+    },
+    "Hauz Khas_Yellow": {
+      "name": "Hauz Khas",
+      "line": "Yellow",
+      "connections": [
+        "Green Park_Yellow",
+        "Malviya Nagar_Yellow",
+        "Hauz Khas_Magenta"
+      ]
+    },
+    "Malviya Nagar_Yellow": {
+      "name": "Malviya Nagar",
+      "line": "Yellow",
+      "connections": [
+        "Hauz Khas_Yellow",
+        "Saket_Yellow"
+      ]
+    },
+    "Saket_Yellow": {
+      "name": "Saket",
+      "line": "Yellow",
+      "connections": [
+        "Malviya Nagar_Yellow",
+        "Qutub Minar_Yellow"
+      ]
+    },
+    "Qutub Minar_Yellow": {
+      "name": "Qutub Minar",
+      "line": "Yellow",
+      "connections": [
+        "Saket_Yellow",
+        "Chhattarpur_Yellow"
+      ]
+    },
+    "Chhattarpur_Yellow": {
+      "name": "Chhattarpur",
+      "line": "Yellow",
+      "connections": [
+        "Qutub Minar_Yellow",
+        "Sultanpur_Yellow"
+      ]
+    },
+    "Sultanpur_Yellow": {
+      "name": "Sultanpur",
+      "line": "Yellow",
+      "connections": [
+        "Chhattarpur_Yellow",
+        "Ghitorni_Yellow"
+      ]
+    },
+    "Ghitorni_Yellow": {
+      "name": "Ghitorni",
+      "line": "Yellow",
+      "connections": [
+        "Sultanpur_Yellow",
+        "Arjan Garh_Yellow"
+      ]
+    },
+    "Arjan Garh_Yellow": {
+      "name": "Arjan Garh",
+      "line": "Yellow",
+      "connections": [
+        "Ghitorni_Yellow",
+        "Guru Dronacharya_Yellow"
+      ]
+    },
+    "Guru Dronacharya_Yellow": {
+      "name": "Guru Dronacharya",
+      "line": "Yellow",
+      "connections": [
+        "Arjan Garh_Yellow",
+        "Sikandarpur_Yellow"
+      ]
+    },
+    "Sikandarpur_Yellow": {
+      "name": "Sikandarpur",
+      "line": "Yellow",
+      "connections": [
+        "Guru Dronacharya_Yellow",
+        "MG Road_Yellow"
+      ]
+    },
+    "MG Road_Yellow": {
+      "name": "MG Road",
+      "line": "Yellow",
+      "connections": [
+        "Sikandarpur_Yellow",
+        "IFFCO Chowk_Yellow"
+      ]
+    },
+    "IFFCO Chowk_Yellow": {
+      "name": "IFFCO Chowk",
+      "line": "Yellow",
+      "connections": [
+        "MG Road_Yellow",
+        "Huda City Centre_Yellow"
+      ]
+    },
+    "Huda City Centre_Yellow": {
+      "name": "Huda City Centre",
+      "line": "Yellow",
+      "connections": [
+        "IFFCO Chowk_Yellow"
+      ]
+    },
+    "Dwarka Sector 21_Blue": {
+      "name": "Dwarka Sector 21",
+      "line": "Blue",
+      "connections": [
+        "Dwarka Sector 8_Blue",
+        "Dwarka Sector 21_Airport Express"
+      ]
+    },
+    "Dwarka Sector 8_Blue": {
+      "name": "Dwarka Sector 8",
+      "line": "Blue",
+      "connections": [
+        "Dwarka Sector 21_Blue",
+        "Dwarka Sector 9_Blue"
+      ]
+    },
+    "Dwarka Sector 9_Blue": {
+      "name": "Dwarka Sector 9",
+      "line": "Blue",
+      "connections": [
+        "Dwarka Sector 8_Blue",
+        "Dwarka Sector 10_Blue"
+      ]
+    },
+    "Dwarka Sector 10_Blue": {
+      "name": "Dwarka Sector 10",
+      "line": "Blue",
+      "connections": [
+        "Dwarka Sector 9_Blue",
+        "Dwarka Sector 11_Blue"
+      ]
+    },
+    "Dwarka Sector 11_Blue": {
+      "name": "Dwarka Sector 11",
+      "line": "Blue",
+      "connections": [
+        "Dwarka Sector 10_Blue",
+        "Dwarka Sector 12_Blue"
+      ]
+    },
+    "Dwarka Sector 12_Blue": {
+      "name": "Dwarka Sector 12",
+      "line": "Blue",
+      "connections": [
+        "Dwarka Sector 11_Blue",
+        "Dwarka Sector 13_Blue"
+      ]
+    },
+    "Dwarka Sector 13_Blue": {
+      "name": "Dwarka Sector 13",
+      "line": "Blue",
+      "connections": [
+        "Dwarka Sector 12_Blue",
+        "Dwarka Sector 14_Blue"
+      ]
+    },
+    "Dwarka Sector 14_Blue": {
+      "name": "Dwarka Sector 14",
+      "line": "Blue",
+      "connections": [
+        "Dwarka Sector 13_Blue",
+        "Dwarka_Blue"
+      ]
+    },
+    "Dwarka_Blue": {
+      "name": "Dwarka",
+      "line": "Blue",
+      "connections": [
+        "Dwarka Sector 14_Blue",
+        "Dwarka Mor_Blue",
+        "Dwarka_Grey"
+      ]
+    },
+    "Dwarka Mor_Blue": {
+      "name": "Dwarka Mor",
+      "line": "Blue",
+      "connections": [
+        "Dwarka_Blue",
+        "Nawada_Blue"
+      ]
+    },
+    "Nawada_Blue": {
+      "name": "Nawada",
+      "line": "Blue",
+      "connections": [
+        "Dwarka Mor_Blue",
+        "Uttam Nagar West_Blue"
+      ]
+    },
+    "Uttam Nagar West_Blue": {
+      "name": "Uttam Nagar West",
+      "line": "Blue",
+      "connections": [
+        "Nawada_Blue",
+        "Uttam Nagar East_Blue"
+      ]
+    },
+    "Uttam Nagar East_Blue": {
+      "name": "Uttam Nagar East",
+      "line": "Blue",
+      "connections": [
+        "Uttam Nagar West_Blue",
+        "Janakpuri West_Blue"
+      ]
+    },
+    "Janakpuri West_Blue": {
+      "name": "Janakpuri West",
+      "line": "Blue",
+      "connections": [
+        "Uttam Nagar East_Blue",
+        "Janakpuri East_Blue",
+        "Janakpuri West_Magenta"
+      ]
+    },
+    "Janakpuri East_Blue": {
+      "name": "Janakpuri East",
+      "line": "Blue",
+      "connections": [
+        "Janakpuri West_Blue",
+        "Tilak Nagar_Blue"
+      ]
+    },
+    "Tilak Nagar_Blue": {
+      "name": "Tilak Nagar",
+      "line": "Blue",
+      "connections": [
+        "Janakpuri East_Blue",
+        "Subhash Nagar_Blue"
+      ]
+    },
+    "Subhash Nagar_Blue": {
+      "name": "Subhash Nagar",
+      "line": "Blue",
+      "connections": [
+        "Tilak Nagar_Blue",
+        "Tagore Garden_Blue"
+      ]
+    },
+    "Tagore Garden_Blue": {
+      "name": "Tagore Garden",
+      "line": "Blue",
+      "connections": [
+        "Subhash Nagar_Blue",
+        "Rajouri Garden_Blue"
+      ]
+    },
+    "Rajouri Garden_Blue": {
+      "name": "Rajouri Garden",
+      "line": "Blue",
+      "connections": [
+        "Tagore Garden_Blue",
+        "Ramesh Nagar_Blue",
+        "Rajouri Garden_Pink"
+      ]
+    },
+    "Ramesh Nagar_Blue": {
+      "name": "Ramesh Nagar",
+      "line": "Blue",
+      "connections": [
+        "Rajouri Garden_Blue",
+        "Moti Nagar_Blue"
+      ]
+    },
+    "Moti Nagar_Blue": {
+      "name": "Moti Nagar",
+      "line": "Blue",
+      "connections": [
+        "Ramesh Nagar_Blue",
+        "Kirti Nagar_Blue"
+      ]
+    },
+    "Kirti Nagar_Blue": {
+      "name": "Kirti Nagar",
+      "line": "Blue",
+      "connections": [
+        "Moti Nagar_Blue",
+        "Shadipur_Blue"
+      ]
+    },
+    "Shadipur_Blue": {
+      "name": "Shadipur",
+      "line": "Blue",
+      "connections": [
+        "Kirti Nagar_Blue",
+        "Patel Nagar_Blue"
+      ]
+    },
+    "Patel Nagar_Blue": {
+      "name": "Patel Nagar",
+      "line": "Blue",
+      "connections": [
+        "Shadipur_Blue",
+        "Rajendra Place_Blue"
+      ]
+    },
+    "Rajendra Place_Blue": {
+      "name": "Rajendra Place",
+      "line": "Blue",
+      "connections": [
+        "Patel Nagar_Blue",
+        "Karol Bagh_Blue"
+      ]
+    },
+    "Karol Bagh_Blue": {
+      "name": "Karol Bagh",
+      "line": "Blue",
+      "connections": [
+        "Rajendra Place_Blue",
+        "Jhandewalan_Blue"
+      ]
+    },
+    "Jhandewalan_Blue": {
+      "name": "Jhandewalan",
+      "line": "Blue",
+      "connections": [
+        "Karol Bagh_Blue",
+        "Ramakrishna Ashram Marg_Blue"
+      ]
+    },
+    "Ramakrishna Ashram Marg_Blue": {
+      "name": "Ramakrishna Ashram Marg",
+      "line": "Blue",
+      "connections": [
+        "Jhandewalan_Blue",
+        "Rajiv Chowk_Blue"
+      ]
+    },
+    "Rajiv Chowk_Blue": {
+      "name": "Rajiv Chowk",
+      "line": "Blue",
+      "connections": [
+        "Ramakrishna Ashram Marg_Blue",
+        "Barakhamba Road_Blue",
+        "Rajiv Chowk_Yellow"
+      ]
+    },
+    "Barakhamba Road_Blue": {
+      "name": "Barakhamba Road",
+      "line": "Blue",
+      "connections": [
+        "Rajiv Chowk_Blue",
+        "Mandi House_Blue"
+      ]
+    },
+    "Mandi House_Blue": {
+      "name": "Mandi House",
+      "line": "Blue",
+      "connections": [
+        "Barakhamba Road_Blue",
+        "Pragati Maidan_Blue",
+        "Mandi House_Violet"
+      ]
+    },
+    "Pragati Maidan_Blue": {
+      "name": "Pragati Maidan",
+      "line": "Blue",
+      "connections": [
+        "Mandi House_Blue",
+        "Indraprastha_Blue"
+      ]
+    },
+    "Indraprastha_Blue": {
+      "name": "Indraprastha",
+      "line": "Blue",
+      "connections": [
+        "Pragati Maidan_Blue",
+        "Yamuna Bank_Blue"
+      ]
+    },
+    "Yamuna Bank_Blue": {
+      "name": "Yamuna Bank",
+      "line": "Blue",
+      "connections": [
+        "Indraprastha_Blue",
+        "Akshardham_Blue",
+        "Yamuna Bank_Blue-Branch"
+      ]
+    },
+    "Akshardham_Blue": {
+      "name": "Akshardham",
+      "line": "Blue",
+      "connections": [
+        "Yamuna Bank_Blue",
+        "Mayur Vihar Phase-I_Blue"
+      ]
+    },
+    "Mayur Vihar Phase-I_Blue": {
+      "name": "Mayur Vihar Phase-I",
+      "line": "Blue",
+      "connections": [
+        "Akshardham_Blue",
+        "Mayur Vihar Ext._Blue"
+      ]
+    },
+    "Mayur Vihar Ext._Blue": {
+      "name": "Mayur Vihar Ext.",
+      "line": "Blue",
+      "connections": [
+        "Mayur Vihar Phase-I_Blue",
+        "New Ashok Nagar_Blue"
+      ]
+    },
+    "New Ashok Nagar_Blue": {
+      "name": "New Ashok Nagar",
+      "line": "Blue",
+      "connections": [
+        "Mayur Vihar Ext._Blue",
+        "Noida Sector 15_Blue"
+      ]
+    },
+    "Noida Sector 15_Blue": {
+      "name": "Noida Sector 15",
+      "line": "Blue",
+      "connections": [
+        "New Ashok Nagar_Blue",
+        "Noida Sector 16_Blue"
+      ]
+    },
+    "Noida Sector 16_Blue": {
+      "name": "Noida Sector 16",
+      "line": "Blue",
+      "connections": [
+        "Noida Sector 15_Blue",
+        "Noida Sector 18_Blue"
+      ]
+    },
+    "Noida Sector 18_Blue": {
+      "name": "Noida Sector 18",
+      "line": "Blue",
+      "connections": [
+        "Noida Sector 16_Blue",
+        "Botanical Garden_Blue"
+      ]
+    },
+    "Botanical Garden_Blue": {
+      "name": "Botanical Garden",
+      "line": "Blue",
+      "connections": [
+        "Noida Sector 18_Blue",
+        "Noida City Centre_Blue",
+        "Botanical Garden_Magenta"
+      ]
+    },
+    "Noida City Centre_Blue": {
+      "name": "Noida City Centre",
+      "line": "Blue",
+      "connections": [
+        "Botanical Garden_Blue",
+        "Noida Sec-34_Blue"
+      ]
+    },
+    "Noida Sec-34_Blue": {
+      "name": "Noida Sec-34",
+      "line": "Blue",
+      "connections": [
+        "Noida City Centre_Blue",
+        "Noida Sec-52_Blue"
+      ]
+    },
+    "Noida Sec-52_Blue": {
+      "name": "Noida Sec-52",
+      "line": "Blue",
+      "connections": [
+        "Noida Sec-34_Blue",
+        "Noida Electronic City_Blue"
+      ]
+    },
+    "Noida Electronic City_Blue": {
+      "name": "Noida Electronic City",
+      "line": "Blue",
+      "connections": [
+        "Noida Sec-52_Blue"
+      ]
+    },
+    "Yamuna Bank_Blue-Branch": {
+      "name": "Yamuna Bank",
+      "line": "Blue-Branch",
+      "connections": [
+        "Laxmi Nagar_Blue-Branch",
+        "Yamuna Bank_Blue"
+      ]
+    },
+    "Laxmi Nagar_Blue-Branch": {
+      "name": "Laxmi Nagar",
+      "line": "Blue-Branch",
+      "connections": [
+        "Yamuna Bank_Blue-Branch",
+        "Nirman Vihar_Blue-Branch"
+      ]
+    },
+    "Nirman Vihar_Blue-Branch": {
+      "name": "Nirman Vihar",
+      "line": "Blue-Branch",
+      "connections": [
+        "Laxmi Nagar_Blue-Branch",
+        "Preet Vihar_Blue-Branch"
+      ]
+    },
+    "Preet Vihar_Blue-Branch": {
+      "name": "Preet Vihar",
+      "line": "Blue-Branch",
+      "connections": [
+        "Nirman Vihar_Blue-Branch",
+        "Karkarduma_Blue-Branch"
+      ]
+    },
+    "Karkarduma_Blue-Branch": {
+      "name": "Karkarduma",
+      "line": "Blue-Branch",
+      "connections": [
+        "Preet Vihar_Blue-Branch",
+        "Anand Vihar ISBT_Blue-Branch",
+        "Karkarduma_Pink"
+      ]
+    },
+    "Anand Vihar ISBT_Blue-Branch": {
+      "name": "Anand Vihar ISBT",
+      "line": "Blue-Branch",
+      "connections": [
+        "Karkarduma_Blue-Branch",
+        "Kaushambi_Blue-Branch",
+        "Anand Vihar ISBT_Pink"
+      ]
+    },
+    "Kaushambi_Blue-Branch": {
+      "name": "Kaushambi",
+      "line": "Blue-Branch",
+      "connections": [
+        "Anand Vihar ISBT_Blue-Branch",
+        "Vaishali_Blue-Branch"
+      ]
+    },
+    "Vaishali_Blue-Branch": {
+      "name": "Vaishali",
+      "line": "Blue-Branch",
+      "connections": [
+        "Kaushambi_Blue-Branch"
+      ]
+    },
+    "Majlis Park_Pink": {
+      "name": "Majlis Park",
+      "line": "Pink",
+      "connections": [
+        "Azadpur_Pink"
+      ]
+    },
+    "Azadpur_Pink": {
+      "name": "Azadpur",
+      "line": "Pink",
+      "connections": [
+        "Majlis Park_Pink",
+        "Shalimar Bagh_Pink",
+        "Azadpur_Yellow"
+      ]
+    },
+    "Shalimar Bagh_Pink": {
+      "name": "Shalimar Bagh",
+      "line": "Pink",
+      "connections": [
+        "Azadpur_Pink",
+        "Netaji Subhash Place_Pink"
+      ]
+    },
+    "Netaji Subhash Place_Pink": {
+      "name": "Netaji Subhash Place",
+      "line": "Pink",
+      "connections": [
+        "Shalimar Bagh_Pink",
+        "Shakurpur_Pink",
+        "Netaji Subhash Place_Red"
+      ]
+    },
+    "Shakurpur_Pink": {
+      "name": "Shakurpur",
+      "line": "Pink",
+      "connections": [
+        "Netaji Subhash Place_Pink",
+        "Punjabi Bagh West_Pink"
+      ]
+    },
+    "Punjabi Bagh West_Pink": {
+      "name": "Punjabi Bagh West",
+      "line": "Pink",
+      "connections": [
+        "Shakurpur_Pink",
+        "ESI Hospital_Pink"
+      ]
+    },
+    "ESI Hospital_Pink": {
+      "name": "ESI Hospital",
+      "line": "Pink",
+      "connections": [
+        "Punjabi Bagh West_Pink",
+        "Rajouri Garden_Pink"
+      ]
+    },
+    "Rajouri Garden_Pink": {
+      "name": "Rajouri Garden",
+      "line": "Pink",
+      "connections": [
+        "ESI Hospital_Pink",
+        "Mayapuri_Pink",
+        "Rajouri Garden_Blue"
+      ]
+    },
+    "Mayapuri_Pink": {
+      "name": "Mayapuri",
+      "line": "Pink",
+      "connections": [
+        "Rajouri Garden_Pink",
+        "Naraina Vihar_Pink"
+      ]
+    },
+    "Naraina Vihar_Pink": {
+      "name": "Naraina Vihar",
+      "line": "Pink",
+      "connections": [
+        "Mayapuri_Pink",
+        "Delhi Cantt_Pink"
+      ]
+    },
+    "Delhi Cantt_Pink": {
+      "name": "Delhi Cantt",
+      "line": "Pink",
+      "connections": [
+        "Naraina Vihar_Pink",
+        "Durgabai Deshmukh South Campus_Pink",
+        "Delhi Cantt_Magenta"
+      ]
+    },
+    "Durgabai Deshmukh South Campus_Pink": {
+      "name": "Durgabai Deshmukh South Campus",
+      "line": "Pink",
+      "connections": [
+        "Delhi Cantt_Pink",
+        "Sarojini Nagar_Pink"
+      ]
+    },
+    "Sarojini Nagar_Pink": {
+      "name": "Sarojini Nagar",
+      "line": "Pink",
+      "connections": [
+        "Durgabai Deshmukh South Campus_Pink",
+        "INA_Pink"
+      ]
+    },
+    "INA_Pink": {
+      "name": "INA",
+      "line": "Pink",
+      "connections": [
+        "Sarojini Nagar_Pink",
+        "South Extension_Pink",
+        "INA_Yellow"
+      ]
+    },
+    "South Extension_Pink": {
+      "name": "South Extension",
+      "line": "Pink",
+      "connections": [
+        "INA_Pink",
+        "Lajpat Nagar_Pink"
+      ]
+    },
+    "Lajpat Nagar_Pink": {
+      "name": "Lajpat Nagar",
+      "line": "Pink",
+      "connections": [
+        "South Extension_Pink",
+        "Vinobapuri_Pink",
+        "Lajpat Nagar_Violet"
+      ]
+    },
+    "Vinobapuri_Pink": {
+      "name": "Vinobapuri",
+      "line": "Pink",
+      "connections": [
+        "Lajpat Nagar_Pink",
+        "Ashram_Pink"
+      ]
+    },
+    "Ashram_Pink": {
+      "name": "Ashram",
+      "line": "Pink",
+      "connections": [
+        "Vinobapuri_Pink",
+        "Hazrat Nizamuddin_Pink"
+      ]
+    },
+    "Hazrat Nizamuddin_Pink": {
+      "name": "Hazrat Nizamuddin",
+      "line": "Pink",
+      "connections": [
+        "Ashram_Pink",
+        "Mayur Vihar-I_Pink"
+      ]
+    },
+    "Mayur Vihar-I_Pink": {
+      "name": "Mayur Vihar-I",
+      "line": "Pink",
+      "connections": [
+        "Hazrat Nizamuddin_Pink",
+        "Mayur Vihar Pocket-I_Pink"
+      ]
+    },
+    "Mayur Vihar Pocket-I_Pink": {
+      "name": "Mayur Vihar Pocket-I",
+      "line": "Pink",
+      "connections": [
+        "Mayur Vihar-I_Pink",
+        "Trilokpuri Sanjay Lake_Pink"
+      ]
+    },
+    "Trilokpuri Sanjay Lake_Pink": {
+      "name": "Trilokpuri Sanjay Lake",
+      "line": "Pink",
+      "connections": [
+        "Mayur Vihar Pocket-I_Pink",
+        "East Vinod Nagar_Pink"
+      ]
+    },
+    "East Vinod Nagar_Pink": {
+      "name": "East Vinod Nagar",
+      "line": "Pink",
+      "connections": [
+        "Trilokpuri Sanjay Lake_Pink",
+        "Mandawali_Pink"
+      ]
+    },
+    "Mandawali_Pink": {
+      "name": "Mandawali",
+      "line": "Pink",
+      "connections": [
+        "East Vinod Nagar_Pink",
+        "IP Extension_Pink"
+      ]
+    },
+    "IP Extension_Pink": {
+      "name": "IP Extension",
+      "line": "Pink",
+      "connections": [
+        "Mandawali_Pink",
+        "Anand Vihar ISBT_Pink"
+      ]
+    },
+    "Anand Vihar ISBT_Pink": {
+      "name": "Anand Vihar ISBT",
+      "line": "Pink",
+      "connections": [
+        "IP Extension_Pink",
+        "Karkarduma_Pink",
+        "Anand Vihar ISBT_Blue-Branch"
+      ]
+    },
+    "Karkarduma_Pink": {
+      "name": "Karkarduma",
+      "line": "Pink",
+      "connections": [
+        "Anand Vihar ISBT_Pink",
+        "Karkarduma Court_Pink",
+        "Karkarduma_Blue-Branch"
+      ]
+    },
+    "Karkarduma Court_Pink": {
+      "name": "Karkarduma Court",
+      "line": "Pink",
+      "connections": [
+        "Karkarduma_Pink",
+        "Krishna Nagar_Pink"
+      ]
+    },
+    "Krishna Nagar_Pink": {
+      "name": "Krishna Nagar",
+      "line": "Pink",
+      "connections": [
+        "Karkarduma Court_Pink",
+        "East Azad Nagar_Pink"
+      ]
+    },
+    "East Azad Nagar_Pink": {
+      "name": "East Azad Nagar",
+      "line": "Pink",
+      "connections": [
+        "Krishna Nagar_Pink",
+        "Welcome_Pink"
+      ]
+    },
+    "Welcome_Pink": {
+      "name": "Welcome",
+      "line": "Pink",
+      "connections": [
+        "East Azad Nagar_Pink",
+        "Shyam Ganj_Pink",
+        "Welcome_Red"
+      ]
+    },
+    "Shyam Ganj_Pink": {
+      "name": "Shyam Ganj",
+      "line": "Pink",
+      "connections": [
+        "Welcome_Pink",
+        "Maujpur-Babarpur_Pink"
+      ]
+    },
+    "Maujpur-Babarpur_Pink": {
+      "name": "Maujpur-Babarpur",
+      "line": "Pink",
+      "connections": [
+        "Shyam Ganj_Pink",
+        "Gokulpuri_Pink"
+      ]
+    },
+    "Gokulpuri_Pink": {
+      "name": "Gokulpuri",
+      "line": "Pink",
+      "connections": [
+        "Maujpur-Babarpur_Pink",
+        "Johri Enclave_Pink"
+      ]
+    },
+    "Johri Enclave_Pink": {
+      "name": "Johri Enclave",
+      "line": "Pink",
+      "connections": [
+        "Gokulpuri_Pink",
+        "Shiv Vihar_Pink"
+      ]
+    },
+    "Shiv Vihar_Pink": {
+      "name": "Shiv Vihar",
+      "line": "Pink",
+      "connections": [
+        "Johri Enclave_Pink"
+      ]
+    },
+    "Janakpuri West_Magenta": {
+      "name": "Janakpuri West",
+      "line": "Magenta",
+      "connections": [
+        "Dabri Mor_Magenta",
+        "Janakpuri West_Blue"
+      ]
+    },
+    "Dabri Mor_Magenta": {
+      "name": "Dabri Mor",
+      "line": "Magenta",
+      "connections": [
+        "Janakpuri West_Magenta",
+        "Dashrathpuri_Magenta"
+      ]
+    },
+    "Dashrathpuri_Magenta": {
+      "name": "Dashrathpuri",
+      "line": "Magenta",
+      "connections": [
+        "Dabri Mor_Magenta",
+        "Palam_Magenta"
+      ]
+    },
+    "Palam_Magenta": {
+      "name": "Palam",
+      "line": "Magenta",
+      "connections": [
+        "Dashrathpuri_Magenta",
+        "Sadar Bazar Cantonment_Magenta"
+      ]
+    },
+    "Sadar Bazar Cantonment_Magenta": {
+      "name": "Sadar Bazar Cantonment",
+      "line": "Magenta",
+      "connections": [
+        "Palam_Magenta",
+        "Delhi Cantt_Magenta"
+      ]
+    },
+    "Delhi Cantt_Magenta": {
+      "name": "Delhi Cantt",
+      "line": "Magenta",
+      "connections": [
+        "Sadar Bazar Cantonment_Magenta",
+        "Shankar Vihar_Magenta",
+        "Delhi Cantt_Pink"
+      ]
+    },
+    "Shankar Vihar_Magenta": {
+      "name": "Shankar Vihar",
+      "line": "Magenta",
+      "connections": [
+        "Delhi Cantt_Magenta",
+        "Vasant Vihar_Magenta"
+      ]
+    },
+    "Vasant Vihar_Magenta": {
+      "name": "Vasant Vihar",
+      "line": "Magenta",
+      "connections": [
+        "Shankar Vihar_Magenta",
+        "Munirka_Magenta"
+      ]
+    },
+    "Munirka_Magenta": {
+      "name": "Munirka",
+      "line": "Magenta",
+      "connections": [
+        "Vasant Vihar_Magenta",
+        "RK Puram_Magenta"
+      ]
+    },
+    "RK Puram_Magenta": {
+      "name": "RK Puram",
+      "line": "Magenta",
+      "connections": [
+        "Munirka_Magenta",
+        "IIT_Magenta"
+      ]
+    },
+    "IIT_Magenta": {
+      "name": "IIT",
+      "line": "Magenta",
+      "connections": [
+        "RK Puram_Magenta",
+        "Hauz Khas_Magenta"
+      ]
+    },
+    "Hauz Khas_Magenta": {
+      "name": "Hauz Khas",
+      "line": "Magenta",
+      "connections": [
+        "IIT_Magenta",
+        "Panchsheel Park_Magenta",
+        "Hauz Khas_Yellow"
+      ]
+    },
+    "Panchsheel Park_Magenta": {
+      "name": "Panchsheel Park",
+      "line": "Magenta",
+      "connections": [
+        "Hauz Khas_Magenta",
+        "Greater Kailash_Magenta"
+      ]
+    },
+    "Greater Kailash_Magenta": {
+      "name": "Greater Kailash",
+      "line": "Magenta",
+      "connections": [
+        "Panchsheel Park_Magenta",
+        "Nehru Enclave_Magenta"
+      ]
+    },
+    "Nehru Enclave_Magenta": {
+      "name": "Nehru Enclave",
+      "line": "Magenta",
+      "connections": [
+        "Greater Kailash_Magenta",
+        "Kalkaji Mandir_Magenta"
+      ]
+    },
+    "Kalkaji Mandir_Magenta": {
+      "name": "Kalkaji Mandir",
+      "line": "Magenta",
+      "connections": [
+        "Nehru Enclave_Magenta",
+        "Okhla NSIC_Magenta",
+        "Kalkaji Mandir_Violet"
+      ]
+    },
+    "Okhla NSIC_Magenta": {
+      "name": "Okhla NSIC",
+      "line": "Magenta",
+      "connections": [
+        "Kalkaji Mandir_Magenta",
+        "Sukhdev Vihar_Magenta"
+      ]
+    },
+    "Sukhdev Vihar_Magenta": {
+      "name": "Sukhdev Vihar",
+      "line": "Magenta",
+      "connections": [
+        "Okhla NSIC_Magenta",
+        "Jamia Millia Islamia_Magenta"
+      ]
+    },
+    "Jamia Millia Islamia_Magenta": {
+      "name": "Jamia Millia Islamia",
+      "line": "Magenta",
+      "connections": [
+        "Sukhdev Vihar_Magenta",
+        "Okhla Vihar_Magenta"
+      ]
+    },
+    "Okhla Vihar_Magenta": {
+      "name": "Okhla Vihar",
+      "line": "Magenta",
+      "connections": [
+        "Jamia Millia Islamia_Magenta",
+        "Jasola Vihar Shaheen Bagh_Magenta"
+      ]
+    },
+    "Jasola Vihar Shaheen Bagh_Magenta": {
+      "name": "Jasola Vihar Shaheen Bagh",
+      "line": "Magenta",
+      "connections": [
+        "Okhla Vihar_Magenta",
+        "Kalindi Kunj_Magenta"
+      ]
+    },
+    "Kalindi Kunj_Magenta": {
+      "name": "Kalindi Kunj",
+      "line": "Magenta",
+      "connections": [
+        "Jasola Vihar Shaheen Bagh_Magenta",
+        "Botanical Garden_Magenta"
+      ]
+    },
+    "Botanical Garden_Magenta": {
+      "name": "Botanical Garden",
+      "line": "Magenta",
+      "connections": [
+        "Kalindi Kunj_Magenta",
+        "Botanical Garden_Blue"
+      ]
+    },
+    "Kashmere Gate_Violet": {
+      "name": "Kashmere Gate",
+      "line": "Violet",
+      "connections": [
+        "Lal Qila_Violet",
+        "Kashmere Gate_Red",
+        "Kashmere Gate_Yellow"
+      ]
+    },
+    "Lal Qila_Violet": {
+      "name": "Lal Qila",
+      "line": "Violet",
+      "connections": [
+        "Kashmere Gate_Violet",
+        "Jama Masjid_Violet"
+      ]
+    },
+    "Jama Masjid_Violet": {
+      "name": "Jama Masjid",
+      "line": "Violet",
+      "connections": [
+        "Lal Qila_Violet",
+        "Delhi Gate_Violet"
+      ]
+    },
+    "Delhi Gate_Violet": {
+      "name": "Delhi Gate",
+      "line": "Violet",
+      "connections": [
+        "Jama Masjid_Violet",
+        "ITO_Violet"
+      ]
+    },
+    "ITO_Violet": {
+      "name": "ITO",
+      "line": "Violet",
+      "connections": [
+        "Delhi Gate_Violet",
+        "Mandi House_Violet"
+      ]
+    },
+    "Mandi House_Violet": {
+      "name": "Mandi House",
+      "line": "Violet",
+      "connections": [
+        "ITO_Violet",
+        "Janpath_Violet",
+        "Mandi House_Blue"
+      ]
+    },
+    "Janpath_Violet": {
+      "name": "Janpath",
+      "line": "Violet",
+      "connections": [
+        "Mandi House_Violet",
+        "Central Secretariat_Violet"
+      ]
+    },
+    "Central Secretariat_Violet": {
+      "name": "Central Secretariat",
+      "line": "Violet",
+      "connections": [
+        "Janpath_Violet",
+        "Khan Market_Violet",
+        "Central Secretariat_Yellow"
+      ]
+    },
+    "Khan Market_Violet": {
+      "name": "Khan Market",
+      "line": "Violet",
+      "connections": [
+        "Central Secretariat_Violet",
+        "JLN Stadium_Violet"
+      ]
+    },
+    "JLN Stadium_Violet": {
+      "name": "JLN Stadium",
+      "line": "Violet",
+      "connections": [
+        "Khan Market_Violet",
+        "Jangpura_Violet"
+      ]
+    },
+    "Jangpura_Violet": {
+      "name": "Jangpura",
+      "line": "Violet",
+      "connections": [
+        "JLN Stadium_Violet",
+        "Lajpat Nagar_Violet"
+      ]
+    },
+    "Lajpat Nagar_Violet": {
+      "name": "Lajpat Nagar",
+      "line": "Violet",
+      "connections": [
+        "Jangpura_Violet",
+        "Moolchand_Violet",
+        "Lajpat Nagar_Pink"
+      ]
+    },
+    "Moolchand_Violet": {
+      "name": "Moolchand",
+      "line": "Violet",
+      "connections": [
+        "Lajpat Nagar_Violet",
+        "Kailash Colony_Violet"
+      ]
+    },
+    "Kailash Colony_Violet": {
+      "name": "Kailash Colony",
+      "line": "Violet",
+      "connections": [
+        "Moolchand_Violet",
+        "Nehru Place_Violet"
+      ]
+    },
+    "Nehru Place_Violet": {
+      "name": "Nehru Place",
+      "line": "Violet",
+      "connections": [
+        "Kailash Colony_Violet",
+        "Kalkaji Mandir_Violet"
+      ]
+    },
+    "Kalkaji Mandir_Violet": {
+      "name": "Kalkaji Mandir",
+      "line": "Violet",
+      "connections": [
+        "Nehru Place_Violet",
+        "Govindpuri_Violet",
+        "Kalkaji Mandir_Magenta"
+      ]
+    },
+    "Govindpuri_Violet": {
+      "name": "Govindpuri",
+      "line": "Violet",
+      "connections": [
+        "Kalkaji Mandir_Violet",
+        "Okhla_Violet"
+      ]
+    },
+    "Okhla_Violet": {
+      "name": "Okhla",
+      "line": "Violet",
+      "connections": [
+        "Govindpuri_Violet",
+        "Jasola Apollo_Violet"
+      ]
+    },
+    "Jasola Apollo_Violet": {
+      "name": "Jasola Apollo",
+      "line": "Violet",
+      "connections": [
+        "Okhla_Violet",
+        "Sarita Vihar_Violet"
+      ]
+    },
+    "Sarita Vihar_Violet": {
+      "name": "Sarita Vihar",
+      "line": "Violet",
+      "connections": [
+        "Jasola Apollo_Violet",
+        "Mohan Estate_Violet"
+      ]
+    },
+    "Mohan Estate_Violet": {
+      "name": "Mohan Estate",
+      "line": "Violet",
+      "connections": [
+        "Sarita Vihar_Violet",
+        "Tughlakabad_Violet"
+      ]
+    },
+    "Tughlakabad_Violet": {
+      "name": "Tughlakabad",
+      "line": "Violet",
+      "connections": [
+        "Mohan Estate_Violet",
+        "Badarpur Border_Violet"
+      ]
+    },
+    "Badarpur Border_Violet": {
+      "name": "Badarpur Border",
+      "line": "Violet",
+      "connections": [
+        "Tughlakabad_Violet",
+        "Mewala Maharajpur_Violet"
+      ]
+    },
+    "Mewala Maharajpur_Violet": {
+      "name": "Mewala Maharajpur",
+      "line": "Violet",
+      "connections": [
+        "Badarpur Border_Violet",
+        "Sector 28_Violet"
+      ]
+    },
+    "Sector 28_Violet": {
+      "name": "Sector 28",
+      "line": "Violet",
+      "connections": [
+        "Mewala Maharajpur_Violet",
+        "Badkhal Mor_Violet"
+      ]
+    },
+    "Badkhal Mor_Violet": {
+      "name": "Badkhal Mor",
+      "line": "Violet",
+      "connections": [
+        "Sector 28_Violet",
+        "Old Faridabad_Violet"
+      ]
+    },
+    "Old Faridabad_Violet": {
+      "name": "Old Faridabad",
+      "line": "Violet",
+      "connections": [
+        "Badkhal Mor_Violet",
+        "Neelam Chowk Ajronda_Violet"
+      ]
+    },
+    "Neelam Chowk Ajronda_Violet": {
+      "name": "Neelam Chowk Ajronda",
+      "line": "Violet",
+      "connections": [
+        "Old Faridabad_Violet",
+        "Bata Chowk_Violet"
+      ]
+    },
+    "Bata Chowk_Violet": {
+      "name": "Bata Chowk",
+      "line": "Violet",
+      "connections": [
+        "Neelam Chowk Ajronda_Violet",
+        "Escorts Mujesar_Violet"
+      ]
+    },
+    "Escorts Mujesar_Violet": {
+      "name": "Escorts Mujesar",
+      "line": "Violet",
+      "connections": [
+        "Bata Chowk_Violet",
+        "Sant Surdas_Violet"
+      ]
+    },
+    "Sant Surdas_Violet": {
+      "name": "Sant Surdas",
+      "line": "Violet",
+      "connections": [
+        "Escorts Mujesar_Violet",
+        "Raja Nahar Singh_Violet"
+      ]
+    },
+    "Raja Nahar Singh_Violet": {
+      "name": "Raja Nahar Singh",
+      "line": "Violet",
+      "connections": [
+        "Sant Surdas_Violet"
+      ]
+    },
+    "New Delhi_Airport Express": {
+      "name": "New Delhi",
+      "line": "Airport Express",
+      "connections": [
+        "Shivaji Stadium_Airport Express",
+        "New Delhi_Yellow"
+      ]
+    },
+    "Shivaji Stadium_Airport Express": {
+      "name": "Shivaji Stadium",
+      "line": "Airport Express",
+      "connections": [
+        "New Delhi_Airport Express",
+        "Dhaula Kuan_Airport Express"
+      ]
+    },
+    "Dhaula Kuan_Airport Express": {
+      "name": "Dhaula Kuan",
+      "line": "Airport Express",
+      "connections": [
+        "Shivaji Stadium_Airport Express",
+        "Delhi Aerocity_Airport Express"
+      ]
+    },
+    "Delhi Aerocity_Airport Express": {
+      "name": "Delhi Aerocity",
+      "line": "Airport Express",
+      "connections": [
+        "Dhaula Kuan_Airport Express",
+        "IGI Airport (T3)_Airport Express"
+      ]
+    },
+    "IGI Airport (T3)_Airport Express": {
+      "name": "IGI Airport (T3)",
+      "line": "Airport Express",
+      "connections": [
+        "Delhi Aerocity_Airport Express",
+        "Dwarka Sector 21_Airport Express"
+      ]
+    },
+    "Dwarka Sector 21_Airport Express": {
+      "name": "Dwarka Sector 21",
+      "line": "Airport Express",
+      "connections": [
+        "IGI Airport (T3)_Airport Express",
+        "Yashobhoomi Dwarka Sector 25_Airport Express",
+        "Dwarka Sector 21_Blue"
+      ]
+    },
+    "Yashobhoomi Dwarka Sector 25_Airport Express": {
+      "name": "Yashobhoomi Dwarka Sector 25",
+      "line": "Airport Express",
+      "connections": [
+        "Dwarka Sector 21_Airport Express"
+      ]
+    },
+    "Brigadier Hoshiar Singh_Green": {
+      "name": "Brigadier Hoshiar Singh",
+      "line": "Green",
+      "connections": [
+        "Bahadurgarh City_Green"
+      ]
+    },
+    "Bahadurgarh City_Green": {
+      "name": "Bahadurgarh City",
+      "line": "Green",
+      "connections": [
+        "Brigadier Hoshiar Singh_Green",
+        "Pandit Shree Ram Sharma_Green"
+      ]
+    },
+    "Pandit Shree Ram Sharma_Green": {
+      "name": "Pandit Shree Ram Sharma",
+      "line": "Green",
+      "connections": [
+        "Bahadurgarh City_Green",
+        "Tikri Kalan_Green"
+      ]
+    },
+    "Tikri Kalan_Green": {
+      "name": "Tikri Kalan",
+      "line": "Green",
+      "connections": [
+        "Pandit Shree Ram Sharma_Green",
+        "Tikri Border_Green"
+      ]
+    },
+    "Tikri Border_Green": {
+      "name": "Tikri Border",
+      "line": "Green",
+      "connections": [
+        "Tikri Kalan_Green",
+        "Ghevra Metro Station_Green"
+      ]
+    },
+    "Ghevra Metro Station_Green": {
+      "name": "Ghevra Metro Station",
+      "line": "Green",
+      "connections": [
+        "Tikri Border_Green",
+        "Mundka_Green"
+      ]
+    },
+    "Mundka_Green": {
+      "name": "Mundka",
+      "line": "Green",
+      "connections": [
+        "Ghevra Metro Station_Green",
+        "Rajdhani Park_Green"
+      ]
+    },
+    "Rajdhani Park_Green": {
+      "name": "Rajdhani Park",
+      "line": "Green",
+      "connections": [
+        "Mundka_Green",
+        "Nangloi Railway Station_Green"
+      ]
+    },
+    "Nangloi Railway Station_Green": {
+      "name": "Nangloi Railway Station",
+      "line": "Green",
+      "connections": [
+        "Rajdhani Park_Green",
+        "Nangloi_Green"
+      ]
+    },
+    "Nangloi_Green": {
+      "name": "Nangloi",
+      "line": "Green",
+      "connections": [
+        "Nangloi Railway Station_Green",
+        "Surajmal Stadium_Green"
+      ]
+    },
+    "Surajmal Stadium_Green": {
+      "name": "Surajmal Stadium",
+      "line": "Green",
+      "connections": [
+        "Nangloi_Green",
+        "Udyog Nagar_Green"
+      ]
+    },
+    "Udyog Nagar_Green": {
+      "name": "Udyog Nagar",
+      "line": "Green",
+      "connections": [
+        "Surajmal Stadium_Green",
+        "Peera Garhi_Green"
+      ]
+    },
+    "Peera Garhi_Green": {
+      "name": "Peera Garhi",
+      "line": "Green",
+      "connections": [
+        "Udyog Nagar_Green",
+        "Paschim Vihar West_Green"
+      ]
+    },
+    "Paschim Vihar West_Green": {
+      "name": "Paschim Vihar West",
+      "line": "Green",
+      "connections": [
+        "Peera Garhi_Green",
+        "Paschim Vihar East_Green"
+      ]
+    },
+    "Paschim Vihar East_Green": {
+      "name": "Paschim Vihar East",
+      "line": "Green",
+      "connections": [
+        "Paschim Vihar West_Green",
+        "Madipur_Green"
+      ]
+    },
+    "Madipur_Green": {
+      "name": "Madipur",
+      "line": "Green",
+      "connections": [
+        "Paschim Vihar East_Green",
+        "Shivaji Park_Green"
+      ]
+    },
+    "Shivaji Park_Green": {
+      "name": "Shivaji Park",
+      "line": "Green",
+      "connections": [
+        "Madipur_Green",
+        "Punjabi Bagh_Green"
+      ]
+    },
+    "Punjabi Bagh_Green": {
+      "name": "Punjabi Bagh",
+      "line": "Green",
+      "connections": [
+        "Shivaji Park_Green",
+        "Ashok Park Main_Green"
+      ]
+    },
+    "Ashok Park Main_Green": {
+      "name": "Ashok Park Main",
+      "line": "Green",
+      "connections": [
+        "Punjabi Bagh_Green",
+        "Inderlok_Green"
+      ]
+    },
+    "Inderlok_Green": {
+      "name": "Inderlok",
+      "line": "Green",
+      "connections": [
+        "Ashok Park Main_Green",
+        "Inderlok_Red"
+      ]
+    },
+    "Dwarka_Grey": {
+      "name": "Dwarka",
+      "line": "Grey",
+      "connections": [
+        "Nangli_Grey",
+        "Dwarka_Blue"
+      ]
+    },
+    "Nangli_Grey": {
+      "name": "Nangli",
+      "line": "Grey",
+      "connections": [
+        "Dwarka_Grey",
+        "Najafgarh_Grey"
+      ]
+    },
+    "Najafgarh_Grey": {
+      "name": "Najafgarh",
+      "line": "Grey",
+      "connections": [
+        "Nangli_Grey",
+        "Dhansa Bus Stand_Grey"
+      ]
+    },
+    "Dhansa Bus Stand_Grey": {
+      "name": "Dhansa Bus Stand",
+      "line": "Grey",
+      "connections": [
+        "Najafgarh_Grey"
+      ]
+    }
+  }
+}
