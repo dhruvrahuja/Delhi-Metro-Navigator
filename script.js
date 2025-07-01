@@ -41,7 +41,7 @@ function setupAutocomplete(inputId, listId, otherListId) {
     }
 
     const val = this.value.toLowerCase();
-    list.innerHTML = "";
+    list.innerHTML = ""; //LIST GETS RESET ON EVERY KEYSTROKE
 
     if (!val) {
       list.style.display = 'none';
@@ -131,8 +131,12 @@ function findRoute() {
     resultDiv.style.display = 'block';
     return;
   }
+  var preference = document.getElementById("minTimeRadio").checked ? "time" : "interchanges";
 
-  const path = dijkstra(start, end);
+
+  const result = dijkstra(start, end, preference);
+  const path = result.path;
+  // const travelTime = result.time;
 
   if (!path) {
     resultDiv.innerText = "No route found.";
@@ -168,7 +172,7 @@ function findRoute() {
   }
 
   const fare = calculateFare(stationsTraveled);
-  const co2Saved = (stationsTraveled * 0.1).toFixed(2);
+  const co2Saved = (stationsTraveled * 0.1);
 
   let interchanges = 0;
   for (let i = 1; i < path.length; i++) {
@@ -176,13 +180,16 @@ function findRoute() {
       interchanges++;
     }
   }
-  const travelTime = stationsTraveled * 2 + interchanges * 8;
+  const travelTime = (stationsTraveled-1-interchanges) * 2 + interchanges * 8;
 
-  resultDiv.innerText = 
-    `Shortest path: ${routeString}\n` +
-    `Fare: ₹${fare}\n` +
-    `Estimated travel time: ${travelTime} minutes\n` +
-    `Estimated CO₂ emissions saved: ${co2Saved} kg`;
+  resultDiv.innerText = `
+Best path: ${routeString}
+Fare: ₹${fare}
+Estimated travel time: ${travelTime} minutes
+Estimated CO₂ emissions saved: ${co2Saved} kg
+Interchanges: ${interchanges}
+`;
+
 
   resultDiv.style.whiteSpace = "pre-line";
   resultDiv.style.display = 'block';
@@ -191,13 +198,13 @@ function findRoute() {
 
 
 // Dijkstra Implementation
-function dijkstra(start, end) {
+function dijkstra(start, end, mode) {
   const distances = {};
   const prev = {};
   const visited = new Set();
   const pq = new MinPriorityQueue();
 
-  for (let station in stationsData) {
+  for (const station in stationsData) {
     distances[station] = Infinity;
   }
 
@@ -205,14 +212,32 @@ function dijkstra(start, end) {
   pq.enqueue(start, 0);
 
   while (!pq.isEmpty()) {
-    const { element: current } = pq.dequeue();
+    const current = pq.dequeue().element;
     if (visited.has(current)) continue;
     visited.add(current);
 
     if (current === end) break;
 
-    for (let neighbor of stationsData[current].connections) {
-      const alt = distances[current] + 1;
+    const connections = stationsData[current].connections;
+
+    for (let i = 0; i < connections.length; i++) {
+      const neighbor = connections[i];
+      const currentLine = stationsData[current].line;
+      const neighborLine = stationsData[neighbor].line;
+
+      const sameLine = currentLine === neighborLine;
+
+      let cost;
+      if (mode === "time") {
+        cost = sameLine ? 2 : 10;
+      } else if (mode === "interchanges") {
+        cost = sameLine ? 1 : 1000;
+      } else {
+        cost = 1;
+      }
+
+      const alt = distances[current] + cost;
+
       if (alt < distances[neighbor]) {
         distances[neighbor] = alt;
         prev[neighbor] = current;
@@ -230,8 +255,12 @@ function dijkstra(start, end) {
     node = prev[node];
   }
 
-  return path;
+  return {
+    path: path,
+    time: distances[end]
+  };
 }
+
 
 // Simple Min Priority Queue
 class MinPriorityQueue {
@@ -249,3 +278,13 @@ class MinPriorityQueue {
     return this.items.length === 0;
   }
 }
+document.getElementById("minTimeRadio").onclick = function () {
+  document.getElementsByClassName("route-option")[0].classList.add("active");
+  document.getElementsByClassName("route-option")[1].classList.remove("active");
+};
+
+document.getElementById("minInterchangesRadio").onclick = function () {
+  document.getElementsByClassName("route-option")[1].classList.add("active");
+  document.getElementsByClassName("route-option")[0].classList.remove("active");
+};
+

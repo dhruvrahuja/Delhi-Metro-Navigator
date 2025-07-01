@@ -18,6 +18,17 @@
       <input type="text" id="destination" placeholder="Enter destination station" autocomplete="off" />
       <div id="destination-list" class="autocomplete-list"></div>
     </div>
+<div class="switch-container">
+  <label class="route-option active">
+    <input type="radio" id="minTimeRadio" name="routePreference" value="time" checked>
+    Minimum Time
+  </label>
+  <label class="route-option">
+    <input type="radio" id="minInterchangesRadio" name="routePreference" value="interchanges">
+    Minimum Interchanges
+  </label>
+</div>
+
 
     <button onclick="findRoute()">Find Route</button>
     <div id="result"></div>

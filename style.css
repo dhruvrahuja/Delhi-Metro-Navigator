@@ -96,9 +96,64 @@ display: none;
   color: #003d99;
 }
 
+.switch-container {
+  display: flex;
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.route-option {
+  width: 100%;
+  border: 2px solid #0052cc;
+  padding: 6px 16px;
+  border-radius: 6px;
+  color: #0052cc;
+  background-color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.route-option input {
+  display: none;
+}
+
+.route-option.active {
+  background-color: #0052cc;
+  color: white;
+}
+
+.route-option.active:hover{
+  background-color: #003d99;
+}
 @media (max-width: 720px) {
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .route-option {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  .switch-container {
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  button {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 10px;
+    display: block;
+  }
+
   #result {
-    font-size: 1.1rem;
-    padding: 0.8rem 1rem;
+    font-size: 0.95rem;
+    padding: 0.75rem;
   }
 }
