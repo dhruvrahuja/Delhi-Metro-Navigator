@@ -125,7 +125,7 @@ display: none;
 .route-option.active:hover{
   background-color: #003d99;
 }
-@media (max-width: 500px) {
+@media (max-width: 720px) {
   body {
     padding: 0.5rem;
   }
