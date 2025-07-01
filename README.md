@@ -43,4 +43,4 @@ To run the project locally on your system:
    ```bash
    git clone https://github.com/dhruvrahuja/Delhi-Metro-Navigator.git
 
-2. Run index.html on your system
+2. Run index.html file on your system
