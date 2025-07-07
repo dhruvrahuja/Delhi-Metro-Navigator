@@ -1,43 +1,53 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fff;
-  color: #222;
-  padding: 1rem;
+/* Reset */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
 }
 
+/* Heading */
 h1 {
-  margin-bottom: 0.5rem;
-  font-weight: 700;
   font-size: 2rem;
+  margin-bottom: 30px;
+  color: #ffffff;
 }
 
+/* Container */
 .container {
-  width: 95%;
-  max-width: 480px;
-  margin: 0 auto;
-  padding: 0.5rem;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
+/* Autocomplete Input */
 .autocomplete-wrapper {
+  margin-bottom: 20px;
   position: relative;
-  width: 100%;
 }
 
 input[type="text"] {
   width: 100%;
-  padding: 6px 8px;
+  padding: 12px 16px;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  border-radius: 8px;
   font-size: 1rem;
-  border: 1.5px solid #888;
-  border-radius: 4px;
-  box-sizing: border-box;
 }
 
 .autocomplete-list {
@@ -45,72 +55,42 @@ input[type="text"] {
   top: 100%;
   left: 0;
   right: 0;
-  max-height: 180px;
-  overflow-y: auto;
-  background: #fff;
-  border: 1px solid #bbb;
+  background-color: #2b2b2b;
+  border: 1px solid #444;
   border-top: none;
-  z-index: 999;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  border-radius: 0 0 6px 6px;
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 0 0 8px 8px;
+  z-index: 5;
 }
 
 .autocomplete-list div {
-  padding: 8px 12px;
+  padding: 10px 15px;
   cursor: pointer;
 }
 
 .autocomplete-list div:hover {
-  background-color: #f0f0f0;
+  background-color: #3a3a3a;
 }
 
-button {
-  font-size: 1rem;
-  padding: 8px 14px;
-  background-color: #0052cc;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.25s ease;
-}
-
-button:hover {
-  background-color: #003d99;
-}
-
-#result {
-display: none;
-  white-space: pre-wrap;
-  font-size: 1rem;
-  line-height: 1.4;
-  padding: 1rem;
-  background: #e6f0ff;
-  border: 2px solid #0052cc;
-  border-radius: 6px;
-  margin-top: 1rem;
-  max-width: 100%;
-  word-wrap: break-word;
-  box-sizing: border-box;
-  box-shadow: 0 3px 8px rgba(0, 82, 204, 0.3);
-  color: #003d99;
-}
-
+/* Route Toggle Buttons */
 .switch-container {
   display: flex;
-  gap: 10px;
-  margin: 16px 0;
+  justify-content: space-between;
+  margin: 20px 0;
 }
 
 .route-option {
-  width: 100%;
-  border: 2px solid #0052cc;
-  padding: 6px 16px;
+  flex: 1;
+  text-align: center;
+  background-color: #2a2a2a;
+  color: #ccc;
+  padding: 10px;
   border-radius: 6px;
-  color: #0052cc;
-  background-color: white;
-  font-weight: 500;
   cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+  user-select: none;
 }
 
 .route-option input {
@@ -118,67 +98,68 @@ display: none;
 }
 
 .route-option.active {
-  background-color: #0052cc;
+  background-color: #3d5afe;
   color: white;
 }
 
-.route-option.active:hover{
-  background-color: #003d99;
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3d5afe;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
 }
-@media (max-width: 500px) {
-  html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-size: 18px;
+
+button:hover {
+  background-color: #304ffe;
+}
+
+/* Result Box */
+#result {
+  display: none;
+  background-color: #222;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 25px auto 0 auto;
+  border: 1px solid #444;
+  color: #ddd;
+  font-size: 1rem;
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   .container {
-    width: 100%;
-    max-width: none;
-    min-height: 100vh;
-    padding: 1.25rem 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-    justify-content: flex-start;
+    padding: 20px;
   }
 
-  h1 {
-    font-size: 2.2rem;
-    text-align: center;
-    margin: 0;
-  }
-
-  .switch-container {
-    flex-direction: column;
-    gap: 0.8rem;
+  input[type="text"],
+  button {
+    font-size: 0.95rem;
+    padding: 10px 14px;
   }
 
   .route-option {
-    width: 90%;
-    padding: 1rem;
-    font-size: 1.1rem;
-    text-align: center;
-  }
-
-  input[type="text"] {
-    font-size: 1.1rem;
-    padding: 1rem;
-  }
-
-  button {
-    width: 100%;
-    font-size: 1.1rem;
-    padding: 1rem;
-    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    padding: 8px;
+    margin: 0 3px;
   }
 
   #result {
-    font-size: 1.1rem;
-    padding: 1rem;
-    line-height: 1.6;
+    font-size: 0.9rem;
+    padding: 12px;
   }
 }
-
-
