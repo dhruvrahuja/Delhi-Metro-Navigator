@@ -172,7 +172,7 @@ function findRoute() {
   }
 
   const fare = calculateFare(stationsTraveled);
-  const co2Saved = (stationsTraveled * 0.1);
+  const co2Saved = (stationsTraveled * 0.1).toFixed(2);
 
   let interchanges = 0;
   for (let i = 1; i < path.length; i++) {
