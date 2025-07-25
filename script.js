@@ -232,8 +232,6 @@ function dijkstra(start, end, mode) {
         cost = sameLine ? 2 : 10;
       } else if (mode === "interchanges") {
         cost = sameLine ? 1 : 1000;
-      } else {
-        cost = 1;
       }
 
       const alt = distances[current] + cost;
