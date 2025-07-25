@@ -249,7 +249,8 @@ function dijkstra(start, end, mode) {
   const path = [];
   let node = end;
   while (node) {
-    path.unshift(node);
+    path.unshift(node); 
+    // unshift adds to the beginning of array can also push and reverse later instead
     node = prev[node];
   }
 
